@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background-color: azure;
+}
+.bg {
+text-align: center;
+padding: 10px;
+height: 100vh;
+background-size: cover ;
+box-sizing: border-box;
+}
+.home{
+    background-image: url("./imagen/17024-4k.jpg");
+}
