@@ -1,14 +1,52 @@
+
 body {
     margin: 0;
-    background-color: azure;
+    background-color: rgb(252, 252, 255);
 }
 .bg {
 text-align: center;
 padding: 10px;
-height: 100vh;
+height: 80vh;
 background-size: cover ;
 box-sizing: border-box;
+/*FILTRO BORROSO */
+filter: blur(4px);
 }
+
+.bg-text {
+    color: rgb(300, 300, 300);
+    font-weight: bold;
+    border: 7px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    /*FUENTE */
+    font-family: 'Merriweather', serif;
+
+}
+
+.card-text {
+    font-family: 'Merriweather', serif;
+}
+
+.cb {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    background-color: black;
+    padding: 20px 0;
+    color: white;
+    margin-top: 40px;
+}
+
 .home{
     background-image: url("./imagen/17024-4k.jpg");
 }
