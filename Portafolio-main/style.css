@@ -1,0 +1,105 @@
+
+body {
+    margin: 0;
+    background-color: rgb(68, 120, 145);
+
+}
+
+.navbar {
+  background-color: rgb(0, 0, 0) !important; /* Fondo negro */
+  width: 50%; /* Cambia el ancho al 80% de la pantalla */
+  height: 70px; /* Ajusta la altura */
+  padding: 1px 10px; /* Ajusta el espaciado interno (arriba/abajo y lados) */
+  border-radius: 100px; /* Bordes redondeados */
+
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: rgb(255, 255, 255); /* Texto blanco */
+  font-size: 18px; /* Ajusta el tamaño de la fuente */
+  padding: 30px; /* Espaciado interno en los elementos */
+
+}
+
+
+
+/* central imagen y nombre */
+.bg {
+text-align: center;
+padding: 10px;
+height: 70vh;
+background-size: cover ;
+box-sizing: border-box;
+/*FILTRO BORROSO */
+filter: blur(4px);
+}
+
+.bg-text {
+    color: rgb(135, 180, 236); 
+    font-weight: bold;
+    border: 6px solid rgb(229, 234, 240); 
+  margin-top: 1cm;
+
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    /*FUENTE */
+    font-family: 'Merriweather', serif;
+
+}
+
+.custom-img {
+    width: 700px; /* Cambia el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 20px; /* Añade margen alrededor de la imagen */
+}
+
+/*textos*/
+.card-text {
+    font-family: 'Merriweather', serif;
+    color: rgb(248, 248, 248);
+}
+
+
+
+/* lo de abajo*/
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 20px 0;
+    color: rgb(248, 248, 248);
+    margin-top: 40px;
+}
+
+.home{
+    background-image: url("./analytics2.png");
+}
+
+
+  /*SECCION DE BOTONES*/
+  .tabs button {
+    padding: 20px 80px;
+    font-size: 20px;
+    background-color: #030303;
+    color: #ffffff;
+    border: none; /* Elimina los bordes por defecto */
+    border-radius: 100px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transiciones suaves */
+  }
+  
+  .tabs button:hover {
+    background-color: #d1e048; /* Color al pasar el ratón */
+    transform: scale(1.05); /* Agranda el botón ligeramente */
+  }
+  
+  .tabs button.active {
+    background-color: #d1e048;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al estar activo */
+  }
+  
